@@ -1,6 +1,6 @@
 let a=10;
 alert(a);
-let t=20;
+ф=20;
 alert(a);
 const b=2007;
 alert(b);
@@ -33,8 +33,8 @@ user = {
 }
 user.cityofresidence ="Москва";
 user.age =25;
-delete user[cityofresidence];
+delete user.cityofresidence;
 let info= prompt("Какую информацию хотите узнать о пользователе?");
-alert(user.info);
+alert(user[info]);
 let nam=prompt('Как вас зовут?');
-alert("Привет" +nam);
+alert("Привет, ${nam}!");
