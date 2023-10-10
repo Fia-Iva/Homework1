@@ -12,8 +12,9 @@ alert(d/d2);
 alert(d+d2);
 alert(d-d2);
 alert(d*d2);
-let r=2**5;
-alert(r);
+let set=2
+let result=2**5;
+alert(result);
 let a2=9;
 let b2=2;
 alert(a2%b2);
