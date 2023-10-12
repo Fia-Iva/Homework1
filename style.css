@@ -69,6 +69,8 @@ padding-bottom: 32px;
 .box{
     height: 566px;
     background: #000915;
+    padding-bottom: 128px;
+    padding-top: 128px;
 }
 section{
     display: flex;
@@ -96,4 +98,34 @@ position: absolute;
 bottom: 32px;
 left: 32px;
 font-size:18px;
+}
+.top_footer{
+    width: 1440px;
+height: 800px;
+background: #000915;
+background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+padding-left: 120px;
+
+}
+.title_footer{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top:373px;
+padding-bottom: 32px;
+}
+.description_footer{
+    color: #FFF;
+font-family: Montserrat;
+width: 584px;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px;
+padding-bottom: 32px;
 }
