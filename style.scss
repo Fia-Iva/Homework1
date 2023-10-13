@@ -129,4 +129,14 @@ font-weight: 300;
 line-height: 32px;
 padding-bottom: 32px;
 }
-@media (max-width: 1024px)
+@media (max-width: 767px){
+    .center{
+        padding-left: calc(50% - 187px);
+        padding-right: calc(50% - 187px);
+    }
+    .top{
+      display: block;
+        text-align: center;
+        flex-direction: column;
+    }
+}

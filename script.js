@@ -60,13 +60,6 @@ if(a>100 || d>100){
 }else{
     echo='неверно';
 }
-let a= '2';
-let b= '3';
+let aa= '2';
+let bb= '3';
 alert(Namber(a) +Namber(b));
-monthNumber = "12";
-switch(monthNumber){
-    Seasons ="winter";
-    Seasons ="spring";
-    Seasons ="summer";
-    Seasons ="autumn";
-}
