@@ -63,3 +63,36 @@ if(a>100 || d>100){
 let aa= '2';
 let bb= '3';
 alert(Namber(a) +Namber(b));
+let monthNumber = 12(prompt('к какому сезону этот месяц принадлежит'));
+switch(monthNumber){
+    case'декабрь':
+    console.log('зима')
+    break;
+    case'январь':
+    console.log('зима')
+    break;
+    case'февраль':
+    console.log('зима')
+    break;
+    case'март':
+    console.log('весна')
+    break;
+    case'апрель':
+    console.log('весна')
+    break;
+    case'май':
+    console.log('весна')
+    break;
+    case'июнь':
+    console.log('лето')
+    break;
+    case'июль':
+    console.log('лето')
+    break;
+    case'август':
+    console.log('лето')
+    break;
+    default:
+        console.log('ввел что-то не то')  
+    break;
+}
