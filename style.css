@@ -144,14 +144,42 @@ section {
   padding-bottom: 32px;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px) {
   .center {
-    padding-left: calc(50% - 187px);
-    padding-right: calc(50% - 187px);
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    width: 343px;
+    height: 77.436px;
+    padding-top: 349px;
+  }
+  .description {
+    padding-top: 33px;
+    padding-bottom: 33px;
+    width: 343px;
+  }
+  .product {
+    width: 343px;
+    height: 300px;
+    border-radius: 16px;
   }
   .top {
-    display: block;
+    display: flex;
     text-align: center;
     flex-direction: column;
+  }
+  .top_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button {
+    background-position: center;
   }
 }/*# sourceMappingURL=style.css.map */
