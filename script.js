@@ -39,3 +39,34 @@ let info= prompt("Какую информацию хотите узнать о �
 alert(user[info]);
 let nam=prompt('Как вас зовут?');
 alert('Привет, ${nam}!');
+let password ='Пароль';
+let massege= prompt('Введите пароль');
+if(password == 1111){
+    massege='пароль введен верно';
+}else {
+    massege='пароль введен неверно';
+}
+alert(massege);
+$c=3;
+if(c>0 && c<10){
+    echo='верно';
+}else{
+    echo='неверно';
+}
+$d=8;
+$e=108;
+if(a>100 || d>100){
+    echo='верно';
+}else{
+    echo='неверно';
+}
+let a= '2';
+let b= '3';
+alert(Namber(a) +Namber(b));
+monthNumber = "12";
+switch(monthNumber){
+    Seasons ="winter";
+    Seasons ="spring";
+    Seasons ="summer";
+    Seasons ="autumn";
+}
