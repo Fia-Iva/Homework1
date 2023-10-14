@@ -130,5 +130,35 @@ line-height: 32px;
 padding-bottom: 32px;
 }
 @media (min-width: 375px) and (max-width: 767px){
-   
+  .center{
+      padding-left:16px;
+      padding-right: 16px;
+    }
+     .section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;  
+}
+.top{
+    width: 375px;
+    height: 735px;
+}
+.title{
+    width: 343px;
+    padding-top: 218px;
+}
+.description{
+    width: 343px;
+}
+.box{
+    width: 375px;
+height: 1221px;
+}
+.img{
+    align-items: center;
+    width: 343px;
+    height: 300px;
+    border-radius: 16px  #001944;
+    padding-left: 16px;
+}
 }
