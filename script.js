@@ -41,29 +41,29 @@ let nam=prompt('Как вас зовут?');
 alert('Привет, ${nam}!');
 let password ='Пароль';
 let massege= prompt('Введите пароль');
-if(password == 1111){
+if(massege == password){
     massege='пароль введен верно';
 }else {
     massege='пароль введен неверно';
 }
 alert(massege);
-$c=3;
+let c=3;
 if(c>0 && c<10){
     echo='верно';
 }else{
     echo='неверно';
 }
-$d=8;
-$e=108;
-if(a>100 || d>100){
+let d3=8;
+let e=108;
+if(a>100 || d3>100){
     echo='верно';
 }else{
     echo='неверно';
 }
 let aa= '2';
 let bb= '3';
-alert(Namber(a) +Namber(b));
-let monthNumber = 12(prompt('к какому сезону этот месяц принадлежит'));
+alert(Namber(aa) +Namber(bb));
+let monthNumber = (prompt('к какому сезону этот месяц принадлежит'));
 switch(monthNumber){
     case'декабрь':
     console.log('зима')
