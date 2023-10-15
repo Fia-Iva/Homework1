@@ -138,20 +138,42 @@ padding-bottom: 32px;
       display: flex;
       flex-direction: column;
       align-items: center;  
+      flex-wrap: wrap;
 }
 .top{
-    width: 375px;
     height: 735px;
 }
+.block{
+    display: flex;
+flex-direction; column;
+align-items: center;
+}
 .title{
+    display: flex;
     width: 343px;
-    padding-top: 218px;
+    height: 77.436px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+     color: #FFF;
+    text-align: center;
+    font-family: Montserrat; 
+    font-size:732px; 
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 .description{
     width: 343px;
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+ font-style: normal; 
+ font-weight: 300;
+ line-height: 22px;
 }
 .box{
-    width: 375px;
 height: 1221px;
 }
 .img{
