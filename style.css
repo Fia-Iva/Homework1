@@ -153,9 +153,15 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
   }
   .top {
     height: 735px;
+  }
+  .block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .title {
     display: flex;
@@ -183,7 +189,6 @@ section {
     line-height: 22px;
   }
   .box {
-    width: 375px;
     height: 1221px;
   }
   .img {
