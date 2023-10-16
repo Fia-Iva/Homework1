@@ -115,6 +115,13 @@ section {
 @media (min-width: 375px) and (max-width: 767px) {
   .body {
     overflow-x: hidden;
+    width: 375px;
+    height: 1956px;
+  }
+  .block {
+    width: 375px;
+    height: 735px;
+    flex-shrink: 0;
   }
   .center {
     padding-left: 16px;

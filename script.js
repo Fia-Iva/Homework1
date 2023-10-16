@@ -62,7 +62,7 @@ if(a>100 || d3>100){
 }
 let aa= '2';
 let bb= '3';
-alert(Namber(aa) +Namber(bb));
+alert(Number(aa) + Number(bb));
 let monthNumber = (prompt('к какому сезону этот месяц принадлежит'));
 switch(monthNumber){
     case'декабрь':
