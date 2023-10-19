@@ -99,6 +99,15 @@ section {
   position: relative;
 }
 
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
 .game {
   color: #fff;
   font-family: "Montserrat";
@@ -110,6 +119,49 @@ section {
   bottom: 32px;
   left: 32px;
   font-size: 18px;
+}
+
+.top_footer {
+  height: 566px;
+  background: #000915;
+  padding-bottom: 128px;
+  padding-top: 128px;
+}
+
+.title_footer {
+  display: flex;
+  width: 700px;
+  height: 125px;
+  font-family: Montserrat;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFF;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 32px;
+}
+
+.description_footer {
+  width: 584px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
+.button {
+  background-position: center;
+  border-radius: 30px;
+  background: #9C0332;
+  width: 234.063px;
+  height: 48.603px;
+  flex-shrink: 0;
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
