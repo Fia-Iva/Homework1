@@ -37,9 +37,9 @@ user.age =25;
 delete user.cityofresidence;
 let info= prompt("Какую информацию хотите узнать о пользователе?");
 alert(user[info]);
-let nam=prompt('Как вас зовут?');
-alert('Привет, ${nam}!');
-for (let i = 10; i > 0; i--){
+let nam=prompt(`Как вас зовут?`);
+alert(`Привет, ${nam}!`);
+for (let i = 2; i > 0; i--){
     console. log (i);
      console. log ("Привет"); 
     }
@@ -55,7 +55,7 @@ for (let i = 10; i > 0; i--){
     Петя: "400",
     }
     for (let key in obj) {
-    console. log('${key} - зарплата ${obj [key]} долларов.');
+    console. log(`${key} - зарплата ${obj [key]} долларов.`);
     }
     let n = 10000;
     let ne = 0;
@@ -67,5 +67,5 @@ for (let i = 10; i > 0; i--){
     console. log(ne) ;
     let firstFriday = 5 ;
     for (let i =firstFriday; i <= 31 ;i += 7 ){
-        console. log('сегодня пятница,${i}-e число.Необходимо подготовить отчет. ') ;  
+        console. log(`сегодня пятница,${i}-e число.Необходимо подготовить отчет. `) ;  
     }
