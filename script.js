@@ -69,32 +69,3 @@ for (let i = 2; i > 0; i--){
     for (let i =firstFriday; i <= 31 ;i += 7 ){
         console. log(`сегодня пятница,${i}-e число.Необходимо подготовить отчет. `) ;  
     }
-
-    function min(a,b){
-        return (a < b);
-    }
-    alert(min(4, 8));
-
-    function min(a,b){
-        return (a < b);
-    }
-    alert(min(6, 6));
-
-    function even_or_odd(n) {
-        return n % 2 === 0 ? "Odd" : "Even"
-  }
-  
-  console.log(even_or_odd(5));
-  console.log(even_or_odd(2));
-
-  function number(num) {
-    return num * num
-  }
-   
-  console.log(number(6))
-   
-  function number(a){
-    return a*a;
-    }
-  
-
