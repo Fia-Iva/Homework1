@@ -19,7 +19,7 @@ return a*a;
 }
 console.log(a*a);
 
-function name(n){
+function greetUser(n){
   if(n<0){
     return "Вы ввели неправильное значение";
   }else if(n > 0 && n < 13){
