@@ -10,12 +10,10 @@ console.log(even_or_odd(5));
 console.log(even_or_odd(2));
 
 function number(num) {
-return num * num
 }
 console.log(num * num);
 
 function number(a){
-return a*a;
 }
 console.log(a*a);
 
