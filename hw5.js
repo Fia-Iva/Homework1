@@ -9,13 +9,18 @@ function even_or_odd(n) {
 console.log(even_or_odd(5));
 console.log(even_or_odd(2));
 
-function number(num) {
+// Задание 3
+function number(num) { //шаблон
+  return num * num;
 }
-console.log(num * num);
+number(4);
+
+let mult = number (3);
 
 function number(a){
+alert(a*a);
 }
-console.log(a*a);
+
 
 function greetUser(n){
   if(n<0){
