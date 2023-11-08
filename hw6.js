@@ -1,19 +1,19 @@
 let arr = [1, 5, 4, 10, 0, 3];
 for(let item of arr){
-    if(item == 10){
+    if(item == 10)
+    console.log(item);{
         break;
     }
 }
-console.log(item);
 
 
 let arr = [1, 5, 4, 10, 0, 3];
 for(let item of arr) {
-  if (item == 4) { 
+  if (item == 4)
+  console.log(arr.indexOf());{ 
     break;
   }
 }
-console.log(arr.indexOf(item));
 
 
 let arr = [1, 3, 5, 10, 20];
@@ -54,7 +54,7 @@ console.log(`"${arrStr}"`);
 
 
 let arr = [[1, 2, 3,],[4, 5, 6]];
-console.log(arr.flat);
+console.log(arr.flat());
 
 
 let arr = [1, 5, 4, 10, 0, 3];
