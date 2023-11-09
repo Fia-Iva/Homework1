@@ -1,19 +1,12 @@
 let arr = [1, 5, 4, 10, 0, 3];
 for(let item of arr){
-    if(item == 10)
-    console.log(item);{
-        break;
-    }
+    if(item == 10)  break;
+    console.log(item);
 }
 
 
 let arr = [1, 5, 4, 10, 0, 3];
-for(let item of arr) {
-  if (item == 4)
-  console.log(arr.indexOf());{ 
-    break;
-  }
-}
+console.log(arr.indexOf(4));
 
 
 let arr = [1, 3, 5, 10, 20];
