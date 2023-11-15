@@ -106,6 +106,6 @@ else if (firstGuess === fruits [0] || lastGuess === fruits [fruits. length- - 1]
     alert ("Вы были близки к побеле!");
 }
 else{
-    alert("Вы не угадали ни одного слова.")
+    alert("Вы не угадали ни одного слова.");
 }
 }
