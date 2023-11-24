@@ -33,13 +33,30 @@
                    </a>
             </section>
         </div> 
-        <script src="hw7.js"></script>
-        <footer>
-            <div class="top_footer center">
-                <h2 class="title_footer">Времена года!</h2>
-                <p class="description_footer">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-                <a href="#"><button class="button">Играть!</button></a>
-            </div>
-        </footer>
+        <div class="game_season">
+            <section class="season center">
+                <div class="top_footer center">
+                    <h2 class="title_footer">Времена года!</h2>
+                    <p class="description_footer">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+                    <a href="#"><button class="button" onclick="alert(Season())">Играть!</button></a>
+                </div>
+                <div class="img_season">
+                    <img src="img/giv.png" class="img_g">
+                </div>
+            </section> 
+        </div>       
+<div class="game_season">
+    <section class="section center">
+        <div class="img_season">
+            <img src="img/giv2.png" class="img_g">
+        </div>
+        <div class="top_footer center">
+            <h2 class="title_footer">Запомни слова</h2>
+            <p class="description_footer">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <a href="#"><button class="button" onclick="alert(words())">Играть!</button></a>
+        </div>
+    </section>
+</div>
+ <script src="hw7.js"></script>
 </body>
 </html>

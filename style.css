@@ -5,6 +5,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  background: #000915;
+  color: #000915;
 }
 
 .center {
@@ -89,8 +91,20 @@ section {
   padding-left: 120px;
 }
 
+.season {
+  display: flex;
+  gap: 135px;
+}
+
 .img {
   border-radius: 18px;
+}
+
+.img_g {
+  padding-top: 233px;
+  width: 485px;
+  height: 333px;
+  flex-shrink: 0;
 }
 
 .product {
@@ -121,11 +135,20 @@ section {
   font-size: 18px;
 }
 
-.top_footer {
-  height: 566px;
+.game_season {
+  height: 800px;
   background: #000915;
-  padding-bottom: 128px;
-  padding-top: 128px;
+  align-items: center;
+}
+
+.top_footer {
+  height: 584px;
+  background: #000915;
+  padding-top: 282px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
 }
 
 .title_footer {
@@ -223,5 +246,11 @@ section {
   }
   .box {
     height: 1221px;
+  }
+  .img_season {
+    padding-top: 5px;
+    width: 344px;
+    height: 236px;
+    flex-shrink: 0;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -42,7 +42,7 @@ function randomNum (n){
 
 // Задание 7
 function acc (min, max){
-return Math.floor(Math.acc() * (max - min + 1) + min);
+return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
 // Задание 8
@@ -109,3 +109,4 @@ else{
     alert("Вы не угадали ни одного слова.");
 }
 }
+function gameStop 
