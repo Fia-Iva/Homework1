@@ -27,14 +27,14 @@ const people = [
     
     console.log(filter([3, -4, 1, 9], isPositive)); 
     
-    const people = [
+    const peopletwo = [
        {name: 'Глеб', gender: 'male'},
        {name: 'Анна', gender: 'female'},
        {name: 'Олег', gender: 'male'},
        {name: 'Оксана', gender: 'female'}
     ];
     
-    console.log(filter(people, isMale)); 
+    console.log(filter(peopletwo, isMale)); 
 
 
  // Задание 3
